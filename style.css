@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color:gray;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+    color:gray;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26,92);
+}
+.btn0{
+    height:40px;
+    width:40%;
+    outline:none;
+    border:none;
+    border-radius: 60px;
+    background: rgb(248, 26,92);
+    color:white;
+    font-weight: 700;
+
+}
+.main{
+    background:url(imagesfr/fruit1.jpg);
+    background-size: cover;
+    height:100vh;
+    background-position: 50% 50%;
+    width:100%;
+    padding-left: 30%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height:45px;
+    width:35%;
+    outline:none;
+    border:none;
+    border-radius: 60px;
+    background: rgb(248, 26,92);
+    color:white;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: rgb(154, 108, 197);
+    transition: 0.5s;
+}
+.h1{
+    font-size: 700;
+}
+.card:hover{
+    -webkit-box-shadow: -2px -1px 26px -4px rgba(203, 134, 134, 0.75);
+-moz-box-shadow: -2px -1px 26px -4px rgba(171, 111, 111, 0.75);
+box-shadow: -2px -1px 26px -4px rgba(150, 106, 106, 0.75);
+transition: 1s;
+}
+.picture{
+    background: url(imagesfr/fruit2.jpg);
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+}
+.col-lg-6{
+    margin: 28% 0% 5% 65%;
+    font-family: cursive;
+}
+.foot{
+    background-color:gray;
+    color:black;
+}
+.btn2{
+    height:45px;
+    width:100px;
+    background-color: rgb(250, 246, 246);
+    border:2px solid white;
+    margin-left: -10px;
+    font-weight: 600;
+}
+.foot input{
+    height:45px;
+    width:50%;
+    outline:none;
+    background: black;
+    color:white;
+    border:2px solid white;
+    margin-top:20px;
+    font-weight: 600;
+}
+.foot::placeholder{
+    color:white;
+}
