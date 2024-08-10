@@ -48,7 +48,7 @@
     padding-left: 30%;
 }
 .main h1{
-    font-size: 4rem;
+    font-size: 40px;
     font-weight: 700;
 }
 .btn1{
@@ -75,13 +75,13 @@ box-shadow: -2px -1px 26px -4px rgba(150, 106, 106, 0.75);
 transition: 1s;
 }
 .picture{
-    background: url(imagesfr/fruit2.jpg);
+    background: url(imagesfr/fruit3.jpg);
     background-size: cover;
-    height: 120vh;
+    height: 95vh;
     width: 100%;
 }
 .col-lg-6{
-    margin: 28% 0% 5% 65%;
+    
     font-family: cursive;
 }
 .foot{
